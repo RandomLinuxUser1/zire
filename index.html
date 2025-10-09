@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>_._zire_._</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #000000;
+            position: relative;
+            min-height: 100vh;
+        }
+
+        #bg-gradient {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, #0a011a 0%, #000000 100%);
+            z-index: -2;
+        }
+
+        #noise-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.1;
+            background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj48ZmlsdGVyIGlkPSJuIj48ZmVUdXJib2xlbmNlIHR5cGU9ImZyYWN0YWxOb2lzZSIgYmFzZUZyZXF1ZW5jeT0iLjY1IiBzdGl0Y2hUaWxlcz0ic3RpdGNoIj48L2ZpbHRlcj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjREREREREIiBmaWx0ZXI9InVybCgjbikibz0iMTYiIC8+PC9zdmc+');
+            animation: moveNoise 60s infinite linear;
+        }
+
+        @keyframes moveNoise {
+            0% {
+                background-position: 0 0;
+            }
+
+            100% {
+                background-position: 100% 100%;
+            }
+        }
+
+        .glow-text {
+            text-shadow: 0 0 10px rgba(139, 92, 246, 0.7), 0 0 20px rgba(139, 92, 246, 0.4);
+        }
+    </style>
+</head>
+
+<body class="flex items-start justify-center">
+
+    <div id="bg-gradient"></div>
+    <div id="noise-overlay"></div>
+
+    <main class="relative z-10 w-full max-w-3xl mx-auto py-16 px-4 md:px-8 text-white">
+
+        <div class="text-center space-y-8 pb-12">
+
+            <h1 class="text-3xl md:text-5xl font-extrabold tracking-tight glow-text text-purple-400">
+                I may be banned within the next month on Discord.
+            </h1>
+
+            <p class="text-gray-300 text-lg md:text-xl max-w-xl mx-auto">
+                If I suddenly vanish, here are the other places you can find and connect with me. Please add these
+                accounts just in case!
+            </p>
+
+        </div>
+
+        <div class="space-y-4 pt-6 max-w-md mx-auto">
+
+            <div
+                class="flex items-center space-x-4 bg-gray-800/70 p-4 rounded-xl transition duration-300 hover:bg-gray-700/70 hover:shadow-lg border border-purple-900/50">
+                <svg class="w-6 h-6 text-purple-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                    fill="currentColor">
+                    <path
+                        d="M297.2 195.1c-14.22 0-26.65-8.225-32.53-21.72-3.111-6.848-11.83-11.77-18.78-11.77-6.953 0-15.67 4.918-18.78 11.77-5.88 13.5-18.31 21.72-32.53 21.72C154.5 195.1 128 221.7 128 256s26.54 60.83 60.6 60.83c14.22 0 26.65-8.225 32.53-21.72 3.111-6.848 11.83-11.77 18.78-11.77 6.953 0 15.67 4.918 18.78 11.77 5.88 13.5 18.31 21.72 32.53 21.72C293.5 316.8 320 290.3 320 256S293.5 195.1 297.2 195.1zM400 0H48C21.49 0 0 21.49 0 48v224c0 106.1 76.53 192.6 182.4 207.2C192 489.6 208 512 208 512h32c0 0 16-22.4 25.6-32.8C371.5 364.6 448 270.1 448 160V48C448 21.49 426.5 0 400 0zM170.6 298.5c-15.62 0-28.28-14.07-28.28-31.32s12.66-31.32 28.28-31.32c15.62 0 28.28 14.07 28.28 31.32S186.2 298.5 170.6 298.5zM277.4 298.5c-15.62 0-28.28-14.07-28.28-31.32s12.66-31.32 28.28-31.32c15.62 0 28.28 14.07 28.28 31.32S293.1 298.5 277.4 298.5z" />
+                </svg>
+                <div class="flex-grow">
+                    <div class="text-sm font-semibold text-gray-400">Discord Account</div>
+                    <div class="text-purple-400 font-medium break-all">@mrnuggetthe2nd</div>
+                </div>
+            </div>
+
+            <div
+                class="flex items-center space-x-4 bg-gray-800/70 p-4 rounded-xl transition duration-300 hover:bg-gray-700/70 hover:shadow-lg border border-purple-900/50">
+                <svg class="w-6 h-6 text-purple-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                    fill="currentColor">
+                    <path
+                        d="M448 209.9a210.1 210.1 0 0 1 -122.8-39.75V354.5a183.3 183.3 0 0 1 -183.3 183.3C52.75 537.8 0 485.1 0 415.4c0-43.19 19.34-80.08 47.92-109.8c34.93-37.16 88-66.21 154.5-66.21V310.2c-29.35 0-57.8 8.019-82.52 23.37C90.87 353.4 83.1 366.1 83.1 380.7c0 28.6 23.37 51.98 51.98 51.98s51.98-23.37 51.98-51.98v-96.16c-11.83-2.613-24.31-3.92-37.03-3.92C128 288 116 288 105 288v-67.42c7.632-1.272 15.36-2.032 23.23-2.316C237 217.4 256 200.7 256 182.1c0-14.86-12.87-27.12-28.32-30.85C202.9 144 191 144 179 144v-56c54.53 1.002 105 24.18 138.8 63.88C359.7 186.2 404.2 195 448 195z" />
+                </svg>
+                <div class="flex-grow">
+                    <div class="text-sm font-semibold text-gray-400">TikTok</div>
+                    <div class="text-purple-400 font-medium break-all">@mrnuggetthe1st</div>
+                </div>
+            </div>
+
+            <div
+                class="flex items-center space-x-4 bg-gray-800/70 p-4 rounded-xl transition duration-300 hover:bg-gray-700/70 hover:shadow-lg border border-purple-900/50">
+                <svg class="w-6 h-6 text-purple-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"
+                    fill="currentColor">
+                    <path
+                        d="M549.655 124.083c-6.232-23.746-24.966-42.483-48.712-48.71c-58.434-15.65-174.524-15.65-174.524-15.65s-116.091 0-174.524 15.65c-23.746 6.23-42.484 24.97-48.712 48.71c-15.65 58.44-15.65 174.52-15.65 174.52s0 116.09 15.65 174.52c6.23 23.75 24.96 42.48 48.71 48.71c58.43 15.65 174.52 15.65 174.52 15.65s116.09 0 174.52-15.65c23.75-6.23 42.48-24.96 48.71-48.71c15.65-58.43 15.65-174.52 15.65-174.52s0-116.09-15.65-174.52zm-317.51 213.59V174.51l142.72 71.35-142.72 71.35z" />
+                </svg>
+                <div class="flex-grow">
+                    <div class="text-sm font-semibold text-gray-400">YouTube Channel</div>
+                    <div class="text-purple-400 font-medium break-all">@therealzealen</div>
+                </div>
+            </div>
+        </div>
+
+        <p class="pt-16 text-xs text-center text-gray-600">
+            (This page updates automatically with the latest information.)
+        </p>
+
+    </main>
+
+    <script>
+        window.onload = function () {
+        }
+    </script>
+
+</body>
+
+</html>
