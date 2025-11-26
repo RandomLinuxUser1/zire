@@ -3,5 +3,10 @@
     "plan": "OWNER",
     "username": "_._zire_._",
     "expires": "lifetime"
+  },
+    "1L8DNSPNF0E177QBYZ745D93QMLIIKDH": {
+    "plan": "TESTER",
+    "username": "voltz",
+    "expires": "lifetime"
   }
 }
